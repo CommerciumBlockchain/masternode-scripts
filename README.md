@@ -321,8 +321,11 @@ add this line to the bottom:
 
 To test it just reboot your vps.
 
-P.S. Secure your vps: 
-https://www.eurovps.com/blog/20-ways-to-secure-linux-vps/
+
+#### Securety tips:
+
+If you want to secure your vps with firewall rules just remember to keep port 2019 open.
+Secure vps tips: https://www.eurovps.com/blog/20-ways-to-secure-linux-vps/
 
 #### Masternode reward.
 
