@@ -330,9 +330,9 @@ Secure vps tips: https://www.eurovps.com/blog/20-ways-to-secure-linux-vps/
 #### Masternode reward.
 
 
-You can leave your MN rewards in the MN address for as long as you want. But before you can move the reward coins anyway all MN rewards must be **shielded** by sending to a transparent Z address starting with C. Its called shielding. Its because the MN rewards were mined. The rule is that all mined coins must be shielded before they can be sent to a transparent C address.
+You can leave your MN rewards in the MN address for as long as you want. But before you can move your reward coins anyway all MN rewards must be **shielded** by sending to a transparent Z address. Its called shielding. Its because the MN rewards were mined. The rule is that all mined coins must be shielded before they can be sent to a transparent C address.
 
-You just copy the z_addr. Go to balances and right click the address  with the masternode collateral which shouldn’t show the balance of 100,000 which is used for the masternode. Then click send from, then paste the z_addr and click send maximum or input the amount and click send. Shielding is sending from a t-addr (transparent address, which for Commercium starts with C) to a z_addr starting with a z.
+Just copy the z_addr. Go to balances and right click the address with the masternode collateral which shouldn’t show the balance of 100,000 which is used for the masternode. Then click send from, then paste the z_addr and click send maximum or input the amount and click send. Shielding is sending from a t-addr (transparent address, which for Commercium starts with C) to a z_addr starting with a z.
 
 The coins generated from a masternode can only be shielded after 100 confirmations. Bacause of that block explorer can show difference between the balance on MN address in the explorer and in the qt wallet.
 
