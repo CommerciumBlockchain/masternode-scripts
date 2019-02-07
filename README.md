@@ -336,6 +336,8 @@ You just copy the z_addr. Go to balances and right click the address  with the m
 
 The coins generated from a masternode can only be shielded after 100 confirmations. Bacause of that block explorer can show difference between the balance on MN address in the explorer and in the qt wallet.
 
+What happens if someone doesn't shield those coins and just tries to send them to another T-address? Nothing ;) You would simply get an error and no transaction would happen. 
+
 
 #### Usefull links
 
