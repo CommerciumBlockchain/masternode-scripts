@@ -21,3 +21,4 @@ if [ "$previousBlock" == "$currentBlock" ]; then
   rm -f /root/.Commercium/debug.log
   commerciumd -reindex
 fi
+ 
