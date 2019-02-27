@@ -13,6 +13,7 @@ Visit:
 
 https://medium.com/commercium-guides/how-to-set-up-a-commercium-masternode-da7361c2e47a 
 Windows guide
+
 https://medium.com/commercium-guides/how-to-set-up-a-commercium-masternode-in-linux-14d42e536dfb 
 Linux guide
 
