@@ -2,9 +2,12 @@
 
 A step by step guide how to setup your Commercium Masternode on Windows/Linux/MacOS local wallet & Linux VPS as remote MN.
 
+Choose one of the 2 available script options.
+
 # Install script 1 #
 
-Install script 1 /part2_linux_vps_setup.sh/ will install the precompiled Commercium daemon
+Install script 1 will install the precompiled Commercium daemon
+[part2_linux_vps_setup.sh](https://github.com/CommerciumBlockchain/masternode-scripts/blob/master/part2_linux_vps_setup.sh)
 
 Visit
 https://medium.com/commercium-guides/how-to-set-up-a-commercium-masternode-da7361c2e47a for Windows guide
@@ -13,6 +16,7 @@ https://medium.com/commercium-guides/how-to-set-up-a-commercium-masternode-in-li
 # Install script 2 #
 
 Install script 2 /install.sh/ will install the Commercium daemon with all dependencies from the source code
+[install.sh]https://github.com/CommerciumBlockchain/masternode-scripts/blob/master/install.sh
 
 ## Features: ##
 
