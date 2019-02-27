@@ -9,7 +9,7 @@ LOG='Masternodes-check.log'
 
 function valid_ip()
 {
-    local  ip=$1
+    local  ip=$1 
     local  stat=1
 
     if [[ $ip =~ ^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$ ]]; then
