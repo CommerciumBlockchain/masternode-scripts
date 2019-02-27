@@ -9,7 +9,8 @@ Choose one of the 2 available script options.
 Install script 1 will install the precompiled Commercium daemon
 [part2_linux_vps_setup.sh](https://github.com/CommerciumBlockchain/masternode-scripts/blob/master/part2_linux_vps_setup.sh)
 
-Visit
+Visit:
+
 https://medium.com/commercium-guides/how-to-set-up-a-commercium-masternode-da7361c2e47a 
 Windows guide
 https://medium.com/commercium-guides/how-to-set-up-a-commercium-masternode-in-linux-14d42e536dfb 
