@@ -15,7 +15,7 @@ https://medium.com/commercium-guides/how-to-set-up-a-commercium-masternode-in-li
 
 # Install script 2 #
 
-Install script 2 /install.sh/ will install the Commercium daemon with all dependencies from the source code
+Install script 2 will install the Commercium daemon with all dependencies from the source code
 [install.sh]https://github.com/CommerciumBlockchain/masternode-scripts/blob/master/install.sh
 
 ## Features: ##
