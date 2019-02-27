@@ -50,4 +50,4 @@ rm -rf $file
 echo "[$dt]==> Info: Rebooting " >> $LOGFILE 
 echo "[$dt]    ==============================================================" >> $LOGFILE
 reboot
-fi
+fi 
