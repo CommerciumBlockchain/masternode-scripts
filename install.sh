@@ -194,14 +194,8 @@ file=${latestrelease//[v]/CommerciumContinuum-}
 yes | sudo apt-get update
 export LC_ALL=en_US.UTF-8
 yes | sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python python-zmq zlib1g-dev wget libcurl4-gnutls-dev bsdmainutils automake curl
-yes | sudo apt-get install libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev
-yes | sudo apt-get install software-properties-common
-yes | sudo add-apt-repository ppa:bitcoin/bitcoin
-yes | sudo apt-get update
-yes | sudo apt-get install libdb4.8-dev libdb4.8++-dev
-yes | sudo apt-get install libminiupnpc-dev
-yes | sudo apt-get install libzmq3-dev
 yes | sudo apt-get install libgomp1
+yes | sudo apt-get update
 sleep 2
 echo ""
 echo  -e "${GREEN} Compile Commercium core .....                 ${STD}"
@@ -224,13 +218,13 @@ cd ~
 cd /usr/local/bin
 mkdir Masternode
 cd Masternode
-wget https://raw.githubusercontent.com/PostJoke/masternode/master/Masternode/Check-scripts.sh
-wget https://raw.githubusercontent.com/PostJoke/masternode/master/Masternode/Update-scripts.sh
-wget https://raw.githubusercontent.com/PostJoke/masternode/master/Masternode/UpdateNode.sh
-wget https://raw.githubusercontent.com/PostJoke/masternode/master/Masternode/clearlog.sh
-wget https://raw.githubusercontent.com/PostJoke/masternode/master/Masternode/daemon_check.sh
-wget https://raw.githubusercontent.com/PostJoke/masternode/master/Masternode/Version
-wget https://raw.githubusercontent.com/PostJoke/masternode/master/Masternode/blockcount
+wget https://raw.githubusercontent.com/CommerciumBlockchain/masternode-scripts/master/Masternode/Check-scripts.sh
+wget https://raw.githubusercontent.com/CommerciumBlockchain/masternode-scripts/Masternode/Update-scripts.sh
+wget https://raw.githubusercontent.com/CommerciumBlockchain/masternode-scripts/Masternode/UpdateNode.sh
+wget https://raw.githubusercontent.com/CommerciumBlockchain/masternode-scripts/Masternode/clearlog.sh
+wget https://raw.githubusercontent.com/CommerciumBlockchain/masternode-scripts/Masternode/daemon_check.sh
+wget https://raw.githubusercontent.com/CommerciumBlockchain/masternode-scripts/Masternode/Version
+wget https://raw.githubusercontent.com/CommerciumBlockchain/masternode-scripts/Masternode/blockcount
 chmod 755 daemon_check.sh
 chmod 755 UpdateNode.sh
 chmod 755 Check-scripts.sh
@@ -286,15 +280,9 @@ sleep 4
 cd ~
 yes | sudo apt-get update 
 export LC_ALL=en_US.UTF-8
-yes | sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python python-zmq zlib1g-dev wget libcurl4-gnutls-dev bsdmainutils automake curl
-yes | sudo apt-get install libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev
-yes | sudo apt-get install software-properties-common 
-yes | sudo add-apt-repository ppa:bitcoin/bitcoin 
-yes | sudo apt-get update 
-yes | sudo apt-get install libdb4.8-dev libdb4.8++-dev 
-yes | sudo apt-get install libminiupnpc-dev 
-yes | sudo apt-get install libzmq3-dev
-yes | sudo apt-get install libgomp1
+yes | sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python python-zmq zlib1g-dev wget libcurl4-gnutls-dev bsdmainutils automake curl 
+yes | sudo apt-get install libgomp1 
+yes | sudo apt-get update
 sleep 2
 latestrelease=\$(curl --silent https://api.github.com/repos/CommerciumBlockchain/CommerciumContinuum/releases/latest | grep '"'"\\$"\"tag_name"\\$"\":'"' | sed -E '"'s/.*"\\$"\"([^"\\$"\"]+)"\\$"\".*/\1/'"')
 link=\"https://github.com/CommerciumBlockchain/CommerciumContinuum/archive/$latestrelease.tar.gz\"
@@ -316,13 +304,13 @@ cd ~
 cd /usr/local/bin
 mkdir Masternode
 cd Masternode
-wget https://raw.githubusercontent.com/PostJoke/masternod/master/Masternode/Check-scripts.sh
-wget https://raw.githubusercontent.com/PostJoke/masternode/master/Masternode/Update-scripts.sh
-wget https://raw.githubusercontent.com/PostJoke/masternode/master/Masternode/UpdateNode.sh
-wget https://raw.githubusercontent.com/PostJoke/masternode/master/Masternode/clearlog.sh
-wget https://raw.githubusercontent.com/PostJoke/masternode/master/Masternode/daemon_check.sh
-wget https://raw.githubusercontent.com/PostJoke/masternode/master/Masternode/Version
-wget https://raw.githubusercontent.com/PostJoke/masternode/master/Masternode/blockcount
+wget https://raw.githubusercontent.com/CommerciumBlockchain/masternode-scripts/master/Masternode/Check-scripts.sh
+wget https://raw.githubusercontent.com/CommerciumBlockchain/masternode-scripts/master/Masternode/Update-scripts.sh
+wget https://raw.githubusercontent.com/CommerciumBlockchain/masternode-scripts/master/Masternode/UpdateNode.sh
+wget https://raw.githubusercontent.com/CommerciumBlockchain/masternode-scripts/master/Masternode/clearlog.sh
+wget https://raw.githubusercontent.com/CommerciumBlockchain/masternode-scripts/master/Masternode/daemon_check.sh
+wget https://raw.githubusercontent.com/CommerciumBlockchain/masternode-scripts/master/Masternode/Version
+wget https://raw.githubusercontent.com/CommerciumBlockchain/masternode-scripts/master/Masternode/blockcount
 chmod 755 daemon_check.sh
 chmod 755 UpdateNode.sh
 chmod 755 Check-scripts.sh
