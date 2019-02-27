@@ -7,3 +7,4 @@ SHELL=/bin/sh
 PWD=/root
 
 /bin/date > ~/.commercium/debug.log
+ 
