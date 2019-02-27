@@ -8,6 +8,6 @@ PWD=/root
 cd /usr/local/bin/Masternode
 rm -f Version
 rm -f UpdateNode.sh
-wget https://raw.githubusercontent.com/PostJoke/masternode/master/Masternode/UpdateNode.sh
-wget https://raw.githubusercontent.com/PostJoke/masternode/master/Masternode/Version
+wget https://raw.githubusercontent.com/CommerciumBlockchain/masternode-scripts/master/Masternode/UpdateNode.sh
+wget https://raw.githubusercontent.com/CommerciumBlockchain/masternode-scripts/master/Masternode/Version
 chmod 755 UpdateNode.sh
