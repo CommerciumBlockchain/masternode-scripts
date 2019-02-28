@@ -47,7 +47,7 @@ As this script must be run as Root, make sure to secure your VPS with additional
 Login to your vps as root, download and run the install.sh file using this command:
 
 ```
-curl -O https://raw.githubusercontent.com/PostJoke/masternode/master/install.sh > install.sh
+curl -O https://raw.githubusercontent.com/CommerciumBlockchain/masternode-scripts/master/install.sh > install.sh
 bash install.sh
 ```
 
@@ -56,6 +56,6 @@ bash install.sh
 ------
 
 ```
-curl -O https://raw.githubusercontent.com/PostJoke/masternode/master/check-masternode.sh > check-masternode.sh
+curl -O https://raw.githubusercontent.com/CommerciumBlockchain/masternode-scripts/master/check-masternode.sh > check-masternode.sh
 bash check-masternode.sh
 ```
