@@ -339,6 +339,11 @@ The coins generated from a masternode can only be shielded after 100 confirmatio
 What happens if someone doesn't shield those coins and just tries to send them to another T-address? Nothing ;) You would simply get an error and no transaction would happen. 
 
 
+#### How to spend/recover blocked 100k MN coins.
+
+Remove or comment out the lines in masternode.conf with your MN.
+
+
 #### Usefull links
 
 - http://master.cmm.coininsta.com/ - network masternode list
