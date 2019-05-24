@@ -15,17 +15,13 @@ You also can run your masternode at your own computer, but it must be operationa
 - `putty` remote shell client (putty.org)
 
 ## Masternode info
+CMM block x minute, ~1440 blocks per day. 
+Each block has 8 CMM reward distributed as follows:
 
-Masternode reward is completely random. One masternode out of 
-total MN numbers are picked at random. There is no seniority, no weighting, just 
-random. So each minute you have a one in (total MN) chance of getting the 
-reward.
-
-- 1440 * 8 = 11,520 CMM mined per day 
-- 1440 * 5.0 = 7,200 goes to miners 
-- 1440 * 2.4 = **3,456** goes to all masternodes 
-- 1440 * 0.6 = 864 goes to founders fund
-
+1440 * 8 = 11,520 CMM mined per day
+1440 * 3.8 = 5,472 goes to miners
+1440 * 3.6 = 5,184 goes to all masternodes
+1440 * 0.6 = 864 goes to founders fund / staking
 
 # PART 1: Local machine setup
 
