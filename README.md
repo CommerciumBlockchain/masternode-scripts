@@ -342,3 +342,10 @@ Remove or comment out the lines in masternode.conf with your MN.
 
 - http://master.cmm.coininsta.com/ - network masternode list
 - https://mntrend.com/en/currencies/CMM - ms stats, profitability
+
+
+
+
+#### Hot nodes. Advanced users only (not recommended) 
+
+With Commercium you can run hot nodes. Its risky because you hold 100,000 coins on the node, but you can remove the wallet.dat after start. All you do is grab a masternode genkey with commercium-cli masternode genkey, take this guy and use it as the `masternodeprivkey=` in your commercium.conf on your linux VPS. So you would have `masternode=1` `masternodeprivkey=5...` that key from genkey, and make sure to have `txindex=1` also. Run commerciumd with these parameters then grab an address commercium-cli getnewaddress and send 100000 after 20 minutes just start your masternode with `commercium-cli masternode start all 0` and itll be up and running, remove your wallet dat file from .commercium and done. No local client needed nor masternode.conf
